@@ -217,7 +217,7 @@ root.config(menu=my_menu)
 
 # Create options menu
 options_menu=Menu(my_menu,tearoff=False)
-my_menu.add_cascade(label="options",menu=options_menu)################################################################################
+my_menu.add_cascade(label="Options",menu=options_menu)################################################################################
 options_menu.add_command(label='Reset Game',command=reset)
 reset()
 root.mainloop ()
